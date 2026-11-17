@@ -17,14 +17,24 @@ export default function Home() {
           <h2 className="text-[#4F7270] text-6xl font-mono">
             Contam histórias.
           </h2>
-          <p>
+          <p className="mt-5 max-w-2xl text-lg font-sans">
             Analista de Dados & BI transformando informações em decisões — e
             construindo meu próximo capítulo com desenvolvimento Java.
           </p>
           <div className="mt-10">
-            <Link href={""}>teste</Link>
-            <Link href={""} className="ml-5">
-              teste
+            <Link
+              href={""}
+              className="bg-[#A9E34B] p-5 text-[#193330] transition-all duration-300 ease-in-out
+  hover:-translate-y-1 hover:shadow-lg rounded-2xl font-bold"
+            >
+              Ver meus projetos
+            </Link>{" "}
+            <Link
+              href={""}
+              className=" p-5 text-[#193330] transition-all duration-300 ease-in-out
+   hover:underline rounded-2xl font-bold"
+            >
+              Conheça minha trajetória
             </Link>
           </div>
         </div>
