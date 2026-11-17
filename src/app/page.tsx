@@ -106,6 +106,28 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <div
+        className="mt-15 bg-[#193330]
+  w-screen
+  relative
+  left-1/2
+  -translate-x-1/2
+  p-6 text-white font-bold
+  flex justify-around"
+      >
+        <p>🟢 POWER BI</p>
+        <p>🟢 EXCEL</p>
+        <p>🟢 SQL</p>
+        <p>🟢 JAVA</p>
+        <p>🟢SPRING BOOT</p>
+      </div>
+
+      <div className="w-mt-6 w-full flex flex-col md:flex-row">
+        <div className="w-full md:w-1/2"></div>
+
+        <div className="w-full md:w-1/2"></div>
+      </div>
     </main>
   );
 }
