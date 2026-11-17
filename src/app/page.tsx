@@ -38,7 +38,73 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="w-full md:w-1/2">bi</div>
+        <div className="w-full md:w-1/2">
+          <div
+            className="
+        relative
+        w-[420px] h-[420px]
+        rounded-full
+        border border-[#D2D4CB]
+        flex items-center justify-center
+      "
+          >
+            <div
+              className="
+          w-[320px] h-[320px]
+          rounded-full
+          bg-[#103B37]
+          flex items-center justify-center
+          shadow-xl
+        "
+            >
+              <span
+                className="
+            text-[#C9F451]
+            text-[140px]
+            font-serif italic
+          "
+              >
+                BI
+              </span>
+            </div>
+
+            <div
+              className="
+          absolute top-[45px] -left-[35px]
+          bg-white
+          p-4 rounded-2xl
+          shadow-lg
+          z-10
+        "
+            >
+              <p className="flex items-center gap-2 text-xs text-[#46615C]">
+                <span className="w-2 h-2 rounded-full bg-[#8BBE27]"></span>
+                INSIGHTS
+              </p>
+
+              <p className="text-2xl font-bold text-[#103B37] mt-2">+24,8%</p>
+            </div>
+
+            <div
+              className="
+          absolute bottom-[45px] -right-[35px]
+          bg-[#FFAD91]
+          p-4 rounded-2xl
+          shadow-lg
+          z-10
+          rotate-[-2deg]
+        "
+            >
+              <p className="text-[10px] font-bold text-[#603F32]">
+                EM APRENDIZADO
+              </p>
+
+              <p className="text-base font-bold text-[#49352D] mt-1">
+                Java & Spring
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </main>
   );
