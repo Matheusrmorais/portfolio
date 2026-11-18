@@ -35,7 +35,7 @@ export default function Home() {
               className=" p-5 text-[#193330] transition-all duration-300 ease-in-out
    hover:underline rounded-2xl font-bold"
             >
-              Conheça minha trajetória
+              Minha trajetória
             </Link>
           </div>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
           <div
             className="
         relative
-        w-[420px] h-[420px]
+        w-[320px] h-[320px]
         rounded-full
         border border-[#D2D4CB]
         flex items-center justify-center
@@ -51,7 +51,7 @@ export default function Home() {
           >
             <div
               className="
-          w-[320px] h-[320px]
+          w-[220px] h-[220px]
           rounded-full
           bg-[#103B37]
           flex items-center justify-center
