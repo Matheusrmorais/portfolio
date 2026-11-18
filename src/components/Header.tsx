@@ -12,7 +12,7 @@ export default function Header() {
         {/* Navegação */}
         <nav className="flex flex-col items-start gap-3 text-base sm:flex-row sm:items-center sm:gap-4">
           <Link
-            href=""
+            href="#sobre"
             className=" relative after:content-[''] after:absolute after:left-0 after:bottom-0
 after:h-[2px] after:w-0 after:bg-[#193330]
 after:transition-all after:duration-300
@@ -22,7 +22,7 @@ hover:after:w-full"
           </Link>
 
           <Link
-            href="/dashboard/solucoes"
+            href="#projetos"
             className="relative after:content-[''] after:absolute after:left-0 after:bottom-0
 after:h-[2px] after:w-0 after:bg-[#193330]
 after:transition-all after:duration-300
@@ -32,7 +32,7 @@ hover:after:w-full"
           </Link>
 
           <Link
-            href=""
+            href="#habilidades"
             className="relative after:content-[''] after:absolute after:left-0 after:bottom-0
 after:h-[2px] after:w-0 after:bg-[#193330]
 after:transition-all after:duration-300
@@ -42,7 +42,7 @@ hover:after:w-full"
           </Link>
 
           <Link
-            href=""
+            href="#contato"
             className="relative after:content-[''] after:absolute after:left-0 after:bottom-0
 after:h-[2px] after:w-0 after:bg-[#193330]
 after:transition-all after:duration-300
