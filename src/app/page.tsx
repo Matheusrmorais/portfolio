@@ -24,14 +24,14 @@ export default function Home() {
           </p>
           <div className="mt-10">
             <Link
-              href={""}
+              href={"#projetos"}
               className="bg-[#A9E34B] p-5 text-[#193330] transition-all duration-300 ease-in-out
   hover:-translate-y-1 hover:shadow-lg rounded-2xl font-bold"
             >
               Ver meus projetos
             </Link>{" "}
             <Link
-              href={""}
+              href={"#sobre"}
               className=" p-5 text-[#193330] transition-all duration-300 ease-in-out
    hover:underline rounded-2xl font-bold"
             >
@@ -127,14 +127,21 @@ export default function Home() {
       <div className="w-mt-6 w-full flex flex-col md:flex-row">
         <div className="w-full md:w-1/2">
           <div className="mt-30 pb-10 ">
-            <p className="underline underline-offset-8 text-2xl font-bold" id="sobre">
+            <p
+              className="underline underline-offset-8 text-2xl font-bold"
+              id="sobre"
+            >
               01 — Sobre mim
             </p>
           </div>
 
-          <p className=" text-lg font-serif">
-            Curiosidade, pensamento analítico e vontade de construir soluções
-            melhores.
+          <p className=" text-lg font-serif max-w-xl">
+            Sou um profissional de tecnologia com experiência em Business
+            Intelligence, análise de dados, dashboards e indicadores.
+            Atualmente, estou aprofundando meus conhecimentos em Desenvolvimento
+            de Software, com foco em Java, SQL, power bi e tecnologias backend.
+            Sou curioso, gosto de aprender e busco transformar ideias e dados em
+            soluções que gerem valor.
           </p>
         </div>
 
@@ -156,9 +163,9 @@ export default function Home() {
             </div>
             <div className="w-full md:w-1/2">
               <p className="max-w-sm font-serif">
-                Minha atuação é focada em organizar dados, criar indicadores e
-                desenvolver dashboards que facilitam a leitura de cenários e a
-                tomada de decisão.
+                Agora, estou ampliando meu repertório com Java e desenvolvimento
+                back-end, unindo visão de dados, lógica e tecnologia para criar
+                soluções cada vez mais completas.
               </p>
             </div>
           </div>
@@ -196,7 +203,10 @@ export default function Home() {
         <div className="w-mt-6 w-full flex flex-col md:flex-row">
           <div className="w-full md:w-1/2">
             <div className="pb-10 ">
-              <p className="underline underline-offset-8 text-2xl font-bold ml-11" id="projetos">
+              <p
+                className="underline underline-offset-8 text-2xl font-bold ml-11"
+                id="projetos"
+              >
                 02 — Projetos selecionados
               </p>
             </div>
@@ -354,7 +364,10 @@ export default function Home() {
       <div className="w-mt-6 w-full flex flex-col md:flex-row">
         <div className="w-full md:w-1/2">
           <div className="mt-30 pb-10 ">
-            <p className="underline underline-offset-8 text-2xl font-bold" id="habilidades">
+            <p
+              className="underline underline-offset-8 text-2xl font-bold"
+              id="habilidades"
+            >
               03 — Habilidades
             </p>
           </div>
