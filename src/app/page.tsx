@@ -320,7 +320,7 @@ export default function Home() {
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
                 <span className="absolute left-6 top-6 text-xs font-bold text-verde">
-                  01
+                  03
                 </span>
               </div>
               <div className="p-7">

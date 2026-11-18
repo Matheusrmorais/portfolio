@@ -55,7 +55,7 @@ hover:after:w-full"
         {/* Botão */}
         <nav>
           <Link
-            href=""
+            href="#contato"
             className="inline-block bg-[#193332] transition-all duration-300 ease-in-out
   hover:-translate-y-1 hover:shadow-lg px-5 py-3 text-white text-sm rounded-3xl"
           >
