@@ -11,9 +11,7 @@ export default function Footer() {
       <div className="mx-auto max-w-[1160px] px-6 md:px-0">
         <div className="grid gap-12 pb-20 pt-24 md:grid-cols-2 md:items-end md:pt-32">
           <div>
-            <p className="text-xs font-bold uppercase tracking-[0.2em] text-[#dbf95a]">
-              04 — Contato
-            </p>
+
 
             <h2 className="mt-5 text-6xl font-bold leading-[0.95] tracking-tight md:text-[88px]">
               Vamos criar algo

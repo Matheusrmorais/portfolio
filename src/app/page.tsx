@@ -196,12 +196,12 @@ export default function Home() {
         <div className="w-mt-6 w-full flex flex-col md:flex-row">
           <div className="w-full md:w-1/2">
             <div className="pb-10 ">
-              <p className="underline underline-offset-8 text-2xl font-bold" id="projetos">
+              <p className="underline underline-offset-8 text-2xl font-bold ml-11" id="projetos">
                 02 — Projetos selecionados
               </p>
             </div>
 
-            <h1 className=" text-6xl text-[#193330] font-extrabold">
+            <h1 className=" text-6xl text-[#193330] font-extrabold ml-10">
               Prática em ação.
             </h1>
           </div>
@@ -360,7 +360,7 @@ export default function Home() {
           </div>
 
           <div className="pb-10">
-            <h1 className="font-extrabold text-5xl text-[#193330]">
+            <h1 className="font-extrabold text-5xl text-[#193330] max-w-xl">
               Minha caixa {""}
               <span className="font-mono text-[#4F7270]">de ferramentas.</span>
             </h1>
